@@ -29,7 +29,7 @@ export function useUsers() {
             url = `https://dummyjson.com/users/filter?key=gender&value=${gender}&limit=${limit}&skip=${(page - 1) * limit}`
         }
 
-        if (sortField && sortOrder && ['lastName', 'age', 'gender', 'phone'].includes(sortField)) {
+        if (sortField && sortOrder && ['lastName', 'age', 'gender', 'phone', 'height', 'weight'].includes(sortField)) {
             url += `&sortBy=${sortField}&order=${sortOrder}`
         }
 
