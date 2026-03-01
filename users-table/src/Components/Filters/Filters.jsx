@@ -8,7 +8,7 @@ export default function Filters({ search, setSearch, gender, setGender }) {
                         type="text"
                         value={search}
                         onChange={e => setSearch(e.target.value)}
-                        placeholder="ФИО, телефон..."
+                        placeholder="ФИО, телефон...."
                         className="w-full border rounded px-3 py-2"
                     />
                 </div>

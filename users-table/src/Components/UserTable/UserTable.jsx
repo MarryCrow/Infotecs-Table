@@ -1,7 +1,5 @@
 export default function UserTable({
                                       users,
-                                      sortField,
-                                      sortOrder,
                                       getSortIndicator,
                                       handleSort,
                                       onSelectUser,
